@@ -9,9 +9,6 @@ name: Deploy Jekyll site to Pages
 ## REMOVE THIS!!!!!!
 
 on:
-  push:
-    branches: ["feat/arazzo-explained"]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
