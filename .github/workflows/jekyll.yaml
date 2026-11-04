@@ -4,7 +4,8 @@
 # documentation.
 
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: REMOVE THIS WHEN DONE
+name: Deploy Jekyll site to Pages
+
 
 ## REMOVE THIS!!!!!!
 
