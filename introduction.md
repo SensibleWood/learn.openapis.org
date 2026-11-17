@@ -53,7 +53,7 @@ The next section shows how some of these problems can be alleviated by specifyin
 
 An **API description file** (sometimes called _contract_) is a **machine-readable** specification of an API. It should strive to be as **complete**, and **fully-detailed** as possible, although absolute completeness is not usually a requirement. Also, just like legal contracts, the more **unambiguous** it is, the more useful it becomes.
 
-Its main advantage over documentation which only humans can read is that it enables **automated processing**, opening the door to the benefits listed at [the beginning of this guide](/#advantages-of-using-openapi).
+Its main advantage over documentation which only humans can read is that it enables **automated processing**, opening the door to the benefits listed at [the beginning of this guide](./#advantages-of-using-openapi).
 
 To begin with, documentation for humans including the list of available methods and their details can be easily generated from the API description file. Done as a step in the build process, this easily prevents out-of-sync docs.
 
