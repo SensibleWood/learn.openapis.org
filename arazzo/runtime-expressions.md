@@ -37,7 +37,7 @@ The value of `$inputs.apiKey` comes from the caller, `$response.body#/winner` co
 
 ## Available Expressions
 
-All expressions start with `$`. They are grouped by where the value comes from.
+All expressions start with `$`. Their syntax is defined in Augmented Backus-Naur Form (ABNF), and the complete grammar is in the [Runtime Expressions](https://spec.openapis.org/arazzo/v1.1.0.html#runtime-expressions) section of the specification. The expressions are grouped below by where the value comes from.
 
 Values from the workflow:
 

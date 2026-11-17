@@ -20,7 +20,7 @@ A Criterion object has three fields:
 
 - `condition` is required and is the condition to evaluate.
 - `type` states how to evaluate it, and is `simple`, `regex`, `jsonpath`, or `xpath`. It is `simple` if omitted.
-- `context` is a [Runtime Expression](runtime-expressions.html) that provides the value to apply the condition to. It **must** be provided if `type` is provided.
+- `context` is a [Runtime Expression](runtime-expressions.html) that provides the value to apply the condition to. It **must** be provided if `type` is provided, including when `type` is explicitly set to `simple`. A `simple` condition with no `type` does not need it.
 
 ## Simple Conditions
 
@@ -129,6 +129,6 @@ The syntax of regular expressions, JSONPath, and XPath is defined elsewhere, so 
 In this topic we've learned that:
 
 - Criteria state which outcomes count as a success and determine whether an action applies.
-- Criteria can be simple conditions, regular expressions, JSONPath, or XPath, and all types other than `simple` need a `context`.
+- Criteria can be simple conditions, regular expressions, JSONPath, or XPath, and a `context` is needed whenever `type` is provided.
 - All the criteria in a list must pass.
 - A condition that cannot be evaluated fails.

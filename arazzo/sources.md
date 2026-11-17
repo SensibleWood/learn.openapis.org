@@ -7,7 +7,7 @@ nav_order: 2
 
 # Referencing API Descriptions
 
-A workflow calls operations, but it does not define them. Those definitions are in API descriptions that are usually written and published separately, so an Arazzo Description needs a way to state which documents it depends on and to refer to each of them by name.
+A workflow calls operations, but it does not define them. Those definitions are in API descriptions that are usually written and published separately, so an Arazzo Description needs a way to state which documents it depends on and to refer to each of them by name. An Arazzo Description can also reference other Arazzo Descriptions, meaning workflows can be composed from multiple Arazzo Description documents.
 
 This is the purpose of the `sourceDescriptions` field, which holds a list of [Source Description Objects](https://spec.openapis.org/arazzo/v1.1.0.html#source-description-object). An Arazzo Description **must** have at least one.
 

@@ -8,7 +8,7 @@ has_toc: false
 
 # The Arazzo Specification
 
-An OpenAPI Description tells us what each operation of an API does, but it says little about how to use those operations together to achieve something useful. The [Arazzo Specification](https://spec.openapis.org/arazzo/v1.1.0.html) addresses this by describing sequences of API calls, the data that flows between them, and what should happen as each call succeeds or fails.
+An OpenAPI Description tells us what each operation of an API does, but it says little about how to use those operations together to achieve something useful. The [Arazzo Specification](https://spec.openapis.org/arazzo/latest.html) addresses this by describing sequences of API calls, the data that flows between them, and what should happen as each call succeeds or fails. Arazzo also provides support for other API description languages such as [AsyncAPI](https://asyncapi.com).
 
 This section provides an introduction for readers not yet familiar with Arazzo and is organized by topic. It explains version 1.1.0 of the specification and assumes you have some familiarity with the [OpenAPI Specification](../specification/).
 

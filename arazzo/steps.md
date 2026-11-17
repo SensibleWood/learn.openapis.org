@@ -127,6 +127,8 @@ Without outputs, the response of a Step is not available to anything outside it.
 
 Steps are executed in the order in which they are listed, unless an [action](actions.html) says otherwise. When a Step is successful and specifies no action the next Step is executed, and when a Step fails and specifies no action the workflow stops.
 
+A Step can also list other Steps in its `dependsOn` field, which **must** complete before it is executed. This field is primarily intended for coordinating asynchronous work. For a workflow that only contains synchronous Steps, the specification recommends ordering the `steps` list without `dependsOn`, which is how our example works. We cover the field in [Composing Workflows](composing.html#depending-on-a-step).
+
 > The complete example is in our [example Arazzo Description](../examples/arazzo/v1.1/tictactoe/arazzo.yaml).
 
 ## Summary
@@ -137,3 +139,4 @@ In this topic we've learned that:
 - A Step references its target rather than repeating it, preferably with an `operationId`.
 - A Step supplies parameters, including credentials, and states the criteria for its success.
 - Outputs make values from a Step available to the rest of the workflow.
+- Steps execute in the order they are listed, unless an action or `dependsOn` changes it.
