@@ -1,6 +1,6 @@
 # Style Guide for "Explained" Pages
 
-This guide applies to pages that explain a specification object by object, such as [The Arazzo Specification](arazzo/index.md). It is based on the Callbacks, Links, and Security pages of [The OpenAPI Specification Explained](specification/index.md), which share a single author and a consistent approach.
+This guide applies to pages that explain a specification object by object, such as [The Arazzo Specification Explained](arazzo/index.md). It is based on the Callbacks, Links, and Security pages of [The OpenAPI Specification Explained](specification/index.md), which share a single author and a consistent approach.
 
 ## Organizing a section
 
@@ -20,7 +20,7 @@ This guide applies to pages that explain a specification object by object, such 
    ---
    layout: default
    title: Describing Steps
-   parent: The Arazzo Specification
+   parent: The Arazzo Specification Explained
    nav_order: 4
    ---
    ```

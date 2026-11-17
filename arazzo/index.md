@@ -1,12 +1,12 @@
 ---
 layout: default
-title: The Arazzo Specification
-nav_order: 10
+title: The Arazzo Specification Explained
+nav_order: 4.5
 has_children: true
 has_toc: false
 ---
 
-# The Arazzo Specification
+# The Arazzo Specification Explained
 
 An OpenAPI Description tells us what each operation of an API does, but it says little about how to use those operations together to achieve something useful. The [Arazzo Specification](https://spec.openapis.org/arazzo/v1.1.0.html) addresses this by describing sequences of API calls, the data that flows between them, and what should happen as each call succeeds or fails. Arazzo also provides support for other API description languages such as [AsyncAPI](https://asyncapi.com).
 

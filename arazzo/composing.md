@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Composing Workflows
-parent: The Arazzo Specification
+parent: The Arazzo Specification Explained
 nav_order: 10
 ---
 

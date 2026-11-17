@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Providing Parameters and Payloads
-parent: The Arazzo Specification
+parent: The Arazzo Specification Explained
 nav_order: 7
 ---
 

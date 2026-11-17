@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reusing Descriptions
-parent: The Arazzo Specification
+parent: The Arazzo Specification Explained
 nav_order: 11
 ---
 

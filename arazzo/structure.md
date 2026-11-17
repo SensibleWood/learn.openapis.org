@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Structure of an Arazzo Description
-parent: The Arazzo Specification
+parent: The Arazzo Specification Explained
 nav_order: 1
 ---
 

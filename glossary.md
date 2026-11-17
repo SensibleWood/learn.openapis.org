@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glossary
-nav_order: 3
+nav_order: 30
 ---
 
 This page defines concepts that are important to understanding OpenAPI, as well as terms and acronyms you are likely to encounter if you want to contribute to the specification discussions.
